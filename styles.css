@@ -339,7 +339,7 @@ footer {
     color: var(--primary);
 }
 
-.copyright {
+copyright {
     font-size: 0.9rem;
     opacity: 0.8;
 }
@@ -349,21 +349,21 @@ footer {
     h1 {
         font-size: 2.5rem;
     }
-
+    
     h2 {
         font-size: 2rem;
     }
-
+    
     nav ul {
         flex-direction: column;
         align-items: center;
     }
-
+    
     nav ul li {
         margin: 0.5rem 0;
     }
-
+    
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
-}
+    }
