@@ -4,7 +4,7 @@ header#inicio {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    padding: 120px 20px; 
+    padding:  390px x 626px; 
     text-align: center;
     position: relative;
 }
@@ -383,6 +383,7 @@ copyright {
         grid-template-columns: 1fr;
     }
     }
+
 
 
 
