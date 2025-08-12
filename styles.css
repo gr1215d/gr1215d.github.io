@@ -1,5 +1,5 @@
 header#inicio {
-    background-image: url('IMG-20250720-WA0004.jpg'); /* o pon aquí la ruta de tu imagen */
+    background-image: url('WhatsApp Image 2025-08-11 at 7.01.01 PM.jpeg'); /* o pon aquí la ruta de tu imagen */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -394,4 +394,5 @@ copyright {
         grid-template-columns: 1fr;
     }
     }
+
 
