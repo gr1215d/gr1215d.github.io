@@ -1,3 +1,30 @@
+header#inicio {
+    background-image: url('IMG-20250720-WA0004.jpg'); /* o pon aquí la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 120px 20px; /* ajusta si es necesario */
+    text-align: center;
+    position: relative;
+}
+
+header#inicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* oscurece la imagen para mejor lectura del texto */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
 :root {
     --primary: #9b6800;
     --secondary: #333;
@@ -367,3 +394,4 @@ copyright {
         grid-template-columns: 1fr;
     }
     }
+
